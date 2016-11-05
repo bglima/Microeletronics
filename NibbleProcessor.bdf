@@ -984,10 +984,6 @@ agreement for further details.
 )
 (connector
 	(pt 1120 440)
-	(pt 1120 544)
-)
-(connector
-	(pt 1120 440)
 	(pt 1168 440)
 )
 (connector
@@ -1367,6 +1363,46 @@ agreement for further details.
 	(pt 2240 176)
 	(bus)
 )
+(connector
+	(pt 2168 552)
+	(pt 2160 552)
+)
+(connector
+	(pt 2160 656)
+	(pt 2160 552)
+)
+(connector
+	(pt 1120 440)
+	(pt 1120 544)
+)
+(connector
+	(pt 1120 544)
+	(pt 1120 656)
+)
+(connector
+	(pt 2288 336)
+	(pt 2240 336)
+)
+(connector
+	(pt 2240 432)
+	(pt 2240 336)
+)
+(connector
+	(pt 2240 432)
+	(pt 2496 432)
+)
+(connector
+	(pt 2496 432)
+	(pt 2496 656)
+)
+(connector
+	(pt 1120 656)
+	(pt 2160 656)
+)
+(connector
+	(pt 2160 656)
+	(pt 2496 656)
+)
 (junction (pt -144 440))
 (junction (pt 144 304))
 (junction (pt 144 440))
@@ -1381,6 +1417,8 @@ agreement for further details.
 (junction (pt 1464 176))
 (junction (pt 1456 512))
 (junction (pt 1672 552))
+(junction (pt 1120 544))
+(junction (pt 2160 656))
 (text "BUSCA" (rect -72 88 -25 104)(font "Arial" (font_size 8)))
 (text "DECODIFICA" (rect 936 96 1030 112)(font "Arial" (font_size 8)))
 (text "EXECUTA/GUARDA" (rect 1840 288 1972 304)(font "Arial" (font_size 8)))
@@ -1394,7 +1432,7 @@ agreement for further details.
 	(section (rect 0 48 368 72)(text "DESIGNER" (rect 2 0 68 14)(font "Arial" ))(text "BRUNO GABRIEL & CÉSAR AUGUSTO" (rect 56 2 535 23)(font "Arial" (font_size 12)))(border))
 	(section (rect 0 72 280 96)(text "NUMBER" (rect 2 0 51 14)(font "Arial" ))(text "1.00" (rect 56 1 107 19)(font "Arial" (font_size 10)))(border))
 	(section (rect 280 72 368 96)(text "REV" (rect 2 1 26 15)(font "Arial" ))(text "A" (rect 43 1 55 19)(font "Arial" (font_size 10)))(border))
-	(section (rect 0 96 240 120)(text "DATE" (rect 2 0 35 14)(font "Arial" ))(text "Sat Nov 05 20:29:43 2016" (rect 56 3 367 21)(font "Arial" (font_size 10)))(date)(border))
+	(section (rect 0 96 240 120)(text "DATE" (rect 2 0 35 14)(font "Arial" ))(text "Sat Nov 05 20:44:42 2016" (rect 56 3 367 21)(font "Arial" (font_size 10)))(date)(border))
 	(section (rect 240 96 310 120)(text "SHEET" (rect 2 0 43 14)(font "Arial" ))(text "1" (rect 55 5 67 23)(font "Arial" (font_size 10))))
 	(section (rect 310 96 368 120)(text "OF" (rect 10 0 26 14)(font "Arial" ))(text "1" (rect 34 4 46 22)(font "Arial" (font_size 10))))
 	(drawing
