@@ -21,7 +21,7 @@ agreement for further details.
 */
 (header "symbol" (version "1.2"))
 (symbol
-	(rect 16 16 328 144)
+	(rect 64 64 376 192)
 	(text "Decoder" (rect 5 0 71 16)(font "Arial" (font_size 8)))
 	(text "inst" (rect 8 110 41 124)(font "Arial" ))
 	(port
@@ -32,32 +32,32 @@ agreement for further details.
 		(line (pt 0 32)(pt 16 32)(line_width 3))
 	)
 	(port
-		(pt 312 32)
+		(pt 312 80)
 		(output)
 		(text "OPERATION[2..0]" (rect 0 0 141 16)(font "Arial" (font_size 8)))
-		(text "OPERATION[2..0]" (rect 150 27 291 43)(font "Arial" (font_size 8)))
+		(text "OPERATION[2..0]" (rect 150 75 291 91)(font "Arial" (font_size 8)))
+		(line (pt 312 80)(pt 296 80)(line_width 3))
+	)
+	(port
+		(pt 312 32)
+		(output)
+		(text "ADDRESS[4..0]" (rect 0 0 122 16)(font "Arial" (font_size 8)))
+		(text "ADDRESS[4..0]" (rect 169 27 291 43)(font "Arial" (font_size 8)))
 		(line (pt 312 32)(pt 296 32)(line_width 3))
 	)
 	(port
-		(pt 312 48)
+		(pt 312 96)
 		(output)
-		(text "ADDRESS[4..0]" (rect 0 0 122 16)(font "Arial" (font_size 8)))
-		(text "ADDRESS[4..0]" (rect 169 43 291 59)(font "Arial" (font_size 8)))
-		(line (pt 312 48)(pt 296 48)(line_width 3))
+		(text "OPX[7..0]" (rect 0 0 84 16)(font "Arial" (font_size 8)))
+		(text "OPX[7..0]" (rect 207 91 291 107)(font "Arial" (font_size 8)))
+		(line (pt 312 96)(pt 296 96)(line_width 3))
 	)
 	(port
 		(pt 312 64)
 		(output)
-		(text "OPX[7..0]" (rect 0 0 84 16)(font "Arial" (font_size 8)))
-		(text "OPX[7..0]" (rect 207 59 291 75)(font "Arial" (font_size 8)))
-		(line (pt 312 64)(pt 296 64)(line_width 3))
-	)
-	(port
-		(pt 312 80)
-		(output)
 		(text "OPY[7..0]" (rect 0 0 84 16)(font "Arial" (font_size 8)))
-		(text "OPY[7..0]" (rect 207 75 291 91)(font "Arial" (font_size 8)))
-		(line (pt 312 80)(pt 296 80)(line_width 3))
+		(text "OPY[7..0]" (rect 207 59 291 75)(font "Arial" (font_size 8)))
+		(line (pt 312 64)(pt 296 64)(line_width 3))
 	)
 	(drawing
 		(rectangle (rect 16 16 296 112))
