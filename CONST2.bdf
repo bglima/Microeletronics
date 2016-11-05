@@ -22,7 +22,7 @@ agreement for further details.
 (header "graphic" (version "1.4"))
 (pin
 	(output)
-	(rect 496 168 672 184)
+	(rect 472 224 648 240)
 	(text "OUTPUT" (rect 1 0 50 11)(font "Arial" (font_size 6)))
 	(text "B[4..0]" (rect 90 0 147 14)(font "Arial" ))
 	(pt 0 8)
@@ -37,9 +37,9 @@ agreement for further details.
 	)
 )
 (symbol
-	(rect 272 160 288 192)
+	(rect 248 216 264 248)
 	(text "VCC" (rect 0 1 11 25)(font "Arial" (font_size 6))(vertical))
-	(text "inst3" (rect 5 -12 19 29)(font "Arial" )(vertical)(invisible))
+	(text "inst4" (rect 5 -12 19 29)(font "Arial" )(vertical)(invisible))
 	(port
 		(pt 16 16)
 		(output)
@@ -52,9 +52,69 @@ agreement for further details.
 	)
 	(rotate90)
 )
+(symbol
+	(rect 256 256 272 288)
+	(text "VCC" (rect 0 1 11 25)(font "Arial" (font_size 6))(vertical))
+	(text "inst6" (rect 5 -12 19 29)(font "Arial" )(vertical)(invisible))
+	(port
+		(pt 16 16)
+		(output)
+		(text "1" (rect 19 7 24 21)(font "Courier New" (bold))(invisible))
+		(text "1" (rect 7 8 21 13)(font "Courier New" (bold))(vertical)(invisible))
+		(line (pt 16 16)(pt 8 16))
+	)
+	(drawing
+		(line (pt 8 24)(pt 8 8))
+	)
+	(rotate90)
+)
+(symbol
+	(rect 320 256 368 288)
+	(text "NOT" (rect 1 0 25 11)(font "Arial" (font_size 6)))
+	(text "inst5" (rect 3 21 44 35)(font "Arial" ))
+	(port
+		(pt 0 16)
+		(input)
+		(text "IN" (rect 2 7 13 21)(font "Courier New" (bold))(invisible))
+		(text "IN" (rect 2 7 13 21)(font "Courier New" (bold))(invisible))
+		(line (pt 0 16)(pt 13 16))
+	)
+	(port
+		(pt 48 16)
+		(output)
+		(text "OUT" (rect 32 7 49 21)(font "Courier New" (bold))(invisible))
+		(text "OUT" (rect 32 7 49 21)(font "Courier New" (bold))(invisible))
+		(line (pt 39 16)(pt 48 16))
+	)
+	(drawing
+		(line (pt 13 25)(pt 13 7))
+		(line (pt 13 7)(pt 31 16))
+		(line (pt 13 25)(pt 31 16))
+		(circle (rect 31 12 39 20))
+	)
+)
 (connector
-	(text "B_[4..0]" (rect 296 160 362 174)(font "Arial" ))
-	(pt 496 176)
-	(pt 288 176)
+	(pt 392 232)
+	(pt 392 272)
+)
+(connector
+	(pt 368 272)
+	(pt 392 272)
+)
+(connector
+	(text "B[4]" (rect 282 256 315 270)(font "Arial" ))
+	(pt 320 272)
+	(pt 272 272)
+)
+(connector
+	(pt 392 232)
+	(pt 472 232)
 	(bus)
 )
+(connector
+	(text "B[3..0]" (rect 272 216 329 230)(font "Arial" ))
+	(pt 264 232)
+	(pt 392 232)
+	(bus)
+)
+(junction (pt 392 232))
