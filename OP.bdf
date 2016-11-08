@@ -56,7 +56,7 @@ agreement for further details.
 	(input)
 	(rect 656 -104 840 -88)
 	(text "INPUT" (rect 141 0 182 11)(font "Arial" (font_size 6)))
-	(text "Input[2..0]" (rect 5 0 96 14)(font "Arial" ))
+	(text "Input[2..0]" (rect 5 0 95 14)(font "Arial" ))
 	(pt 184 8)
 	(drawing
 		(line (pt 100 12)(pt 125 12))
@@ -67,6 +67,22 @@ agreement for further details.
 		(line (pt 125 12)(pt 129 8))
 	)
 	(text "VCC" (rect 144 7 168 18)(font "Arial" (font_size 6)))
+)
+(pin
+	(input)
+	(rect 608 312 776 328)
+	(text "INPUT" (rect 125 0 166 11)(font "Arial" (font_size 6)))
+	(text "Clear" (rect 5 0 47 14)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 152 18)(font "Arial" (font_size 6)))
 )
 (pin
 	(output)
@@ -567,6 +583,30 @@ agreement for further details.
 	(pt 1288 128)
 	(bus)
 )
+(connector
+	(pt 920 248)
+	(pt 920 320)
+)
+(connector
+	(pt 1040 248)
+	(pt 1040 320)
+)
+(connector
+	(pt 776 320)
+	(pt 920 320)
+)
+(connector
+	(pt 1168 248)
+	(pt 1168 320)
+)
+(connector
+	(pt 920 320)
+	(pt 1040 320)
+)
+(connector
+	(pt 1040 320)
+	(pt 1168 320)
+)
 (junction (pt 872 272))
 (junction (pt 984 272))
 (junction (pt 1080 128))
@@ -578,3 +618,5 @@ agreement for further details.
 (junction (pt 1080 144))
 (junction (pt 1208 152))
 (junction (pt 896 -96))
+(junction (pt 920 320))
+(junction (pt 1040 320))

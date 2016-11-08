@@ -69,6 +69,22 @@ agreement for further details.
 	(text "VCC" (rect 160 7 184 18)(font "Arial" (font_size 6)))
 )
 (pin
+	(input)
+	(rect -2136 248 -1968 264)
+	(text "INPUT" (rect 125 0 166 11)(font "Arial" (font_size 6)))
+	(text "Clear" (rect 5 0 47 14)(font "Arial" ))
+	(pt 168 8)
+	(drawing
+		(line (pt 84 12)(pt 109 12))
+		(line (pt 84 4)(pt 109 4))
+		(line (pt 113 8)(pt 168 8))
+		(line (pt 84 12)(pt 84 4))
+		(line (pt 109 4)(pt 113 8))
+		(line (pt 109 12)(pt 113 8))
+	)
+	(text "VCC" (rect 128 7 152 18)(font "Arial" (font_size 6)))
+)
+(pin
 	(output)
 	(rect 1336 120 1539 136)
 	(text "OUTPUT" (rect 1 0 50 11)(font "Arial" (font_size 6)))
@@ -3926,6 +3942,158 @@ agreement for further details.
 	(pt -1840 16)
 	(pt -1840 -96)
 )
+(connector
+	(pt -1800 256)
+	(pt -1800 248)
+)
+(connector
+	(pt -1592 248)
+	(pt -1592 256)
+)
+(connector
+	(pt -1448 248)
+	(pt -1448 256)
+)
+(connector
+	(pt -1320 248)
+	(pt -1320 256)
+)
+(connector
+	(pt -1592 256)
+	(pt -1448 256)
+)
+(connector
+	(pt -1184 248)
+	(pt -1184 256)
+)
+(connector
+	(pt -1448 256)
+	(pt -1320 256)
+)
+(connector
+	(pt -1048 248)
+	(pt -1048 256)
+)
+(connector
+	(pt -1320 256)
+	(pt -1184 256)
+)
+(connector
+	(pt -912 248)
+	(pt -912 256)
+)
+(connector
+	(pt -1184 256)
+	(pt -1048 256)
+)
+(connector
+	(pt -744 248)
+	(pt -744 256)
+)
+(connector
+	(pt -1048 256)
+	(pt -912 256)
+)
+(connector
+	(pt -608 248)
+	(pt -608 256)
+)
+(connector
+	(pt -912 256)
+	(pt -744 256)
+)
+(connector
+	(pt -744 256)
+	(pt -608 256)
+)
+(connector
+	(pt -608 256)
+	(pt -472 256)
+)
+(connector
+	(pt -472 256)
+	(pt -328 256)
+)
+(connector
+	(pt -328 256)
+	(pt -216 256)
+)
+(connector
+	(pt -216 256)
+	(pt -88 256)
+)
+(connector
+	(pt -88 256)
+	(pt 32 256)
+)
+(connector
+	(pt 32 256)
+	(pt 144 256)
+)
+(connector
+	(pt 144 256)
+	(pt 256 256)
+)
+(connector
+	(pt 256 256)
+	(pt 376 256)
+)
+(connector
+	(pt 376 256)
+	(pt 480 256)
+)
+(connector
+	(pt 696 248)
+	(pt 696 256)
+)
+(connector
+	(pt 480 256)
+	(pt 584 256)
+)
+(connector
+	(pt 816 248)
+	(pt 816 256)
+)
+(connector
+	(pt 584 256)
+	(pt 696 256)
+)
+(connector
+	(pt 920 248)
+	(pt 920 256)
+)
+(connector
+	(pt 696 256)
+	(pt 816 256)
+)
+(connector
+	(pt 1040 248)
+	(pt 1040 256)
+)
+(connector
+	(pt 816 256)
+	(pt 920 256)
+)
+(connector
+	(pt 1168 248)
+	(pt 1168 256)
+)
+(connector
+	(pt 920 256)
+	(pt 1040 256)
+)
+(connector
+	(pt 1040 256)
+	(pt 1168 256)
+)
+(connector
+	(pt -1800 256)
+	(pt -1592 256)
+)
+(connector
+	(pt -1968 256)
+	(pt -1800 256)
+)
 (junction (pt 536 272))
 (junction (pt 528 128))
 (junction (pt 632 128))
@@ -4042,3 +4210,26 @@ agreement for further details.
 (junction (pt -1856 -32))
 (junction (pt -1760 144))
 (junction (pt -1840 -96))
+(junction (pt -1800 256))
+(junction (pt -1592 256))
+(junction (pt -1448 256))
+(junction (pt -1320 256))
+(junction (pt -1184 256))
+(junction (pt -1048 256))
+(junction (pt -912 256))
+(junction (pt -744 256))
+(junction (pt -608 256))
+(junction (pt -472 256))
+(junction (pt -328 256))
+(junction (pt -216 256))
+(junction (pt -88 256))
+(junction (pt 32 256))
+(junction (pt 144 256))
+(junction (pt 256 256))
+(junction (pt 376 256))
+(junction (pt 480 256))
+(junction (pt 584 256))
+(junction (pt 696 256))
+(junction (pt 816 256))
+(junction (pt 920 256))
+(junction (pt 1040 256))

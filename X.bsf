@@ -21,9 +21,9 @@ agreement for further details.
 */
 (header "symbol" (version "1.2"))
 (symbol
-	(rect 16 16 288 112)
+	(rect 16 16 288 144)
 	(text "X" (rect 5 0 14 16)(font "Arial" (font_size 8)))
-	(text "inst" (rect 8 78 41 92)(font "Arial" ))
+	(text "inst" (rect 8 110 41 124)(font "Arial" ))
 	(port
 		(pt 0 32)
 		(input)
@@ -46,6 +46,13 @@ agreement for further details.
 		(line (pt 0 64)(pt 16 64))
 	)
 	(port
+		(pt 0 80)
+		(input)
+		(text "Clear" (rect 0 0 47 16)(font "Arial" (font_size 8)))
+		(text "Clear" (rect 21 75 68 91)(font "Arial" (font_size 8)))
+		(line (pt 0 80)(pt 16 80))
+	)
+	(port
 		(pt 272 32)
 		(output)
 		(text "Output[7..0]" (rect 0 0 113 16)(font "Arial" (font_size 8)))
@@ -53,6 +60,6 @@ agreement for further details.
 		(line (pt 272 32)(pt 256 32)(line_width 3))
 	)
 	(drawing
-		(rectangle (rect 16 16 256 80))
+		(rectangle (rect 16 16 256 112))
 	)
 )
