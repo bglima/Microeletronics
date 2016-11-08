@@ -11,27 +11,26 @@ output reg r;
 
 reg [1:0] inst_state;
 reg [1:0] inst_next_state;	
-reg	initOk = 0;
+reg initOk = 0;
 
 always @ (posedge clk) begin
+	case (inst_state)
+		2'b00 : inst_en <= 6'b000000;
+		2'b01 : inst_en <= 6'b100000; 
+		2'b10 : inst_en <= 6'b110000;
+		2'b11 : inst_en <= 6'b111111;
+	endcase
 	inst_state <= inst_next_state;
-	if (!initOk)
-		case (next_state)
-			2'b00 : inst_en <= 6'b000000;
-			2'b01 : inst_en <= 6'b100000; 
-			2'b10 : inst_en <= 6'b110000;
-			2'b11 : inst_en <= 6'b111111;
-		endcase
 end
 
 always begin
 	// Init sequence 
-	case ( int_state )
-		2'b00 : next_state = 2'b01;
-		2'b01 : next_state = 2'b10;
-		2'b10 : next_state = 2'b11;
+	case ( inst_state )
+		2'b00 : inst_next_state = 2'b01;
+		2'b01 : inst_next_state = 2'b10;
+		2'b10 : inst_next_state = 2'b11;
 		2'b11 : begin
-			next_state = 2'b00;
+			inst_next_state = 2'b00;
 			initOk = 1;
 		end
 	endcase
